@@ -97,22 +97,18 @@
 </head>
 <body>
 
-  <!-- Gambar Eby & Jack -->
   <div id="photo">
-    <img src="WhatsApp Image 2025-04-12 at 23.35.30.jpeg " alt="Eby & Jack"> <!-- Ganti nama file sesuai -->
+    <img src="WhatsApp Image 2025-04-12 at 23.35.30.jpeg " alt="Eby & Jack">
   </div>
 
-  <!-- Teks dan Tombol -->
   <h1>Tekan Tombol Ini!</h1>
   <button onclick="showLove()">Klik Aku 💘</button>
   <div id="output"></div>
 
-  <!-- Efek hujan nama Eby -->
   <script>
     function showLove() {
       document.getElementById('output').innerHTML = "Jack: I LOVE YOU, Eby ❤️";
 
-      // Efek hati tambahan saat klik
       for (let i = 0; i < 10; i++) {
         const heart = document.createElement("div");
         heart.innerHTML = "❤️";
@@ -127,7 +123,6 @@
       }
     }
 
-    // Efek hujan teks "Eby"
     function createRain() {
       const rain = document.createElement("div");
       rain.className = "rain";
